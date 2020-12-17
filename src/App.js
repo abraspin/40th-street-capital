@@ -1,24 +1,57 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+import FooterBar from "./Components/FooterBar";
+import NavBar from "./Components/NavBar";
+import About from "./Pages/About";
+import Contact from "./Pages/Contact";
+import Home from "./Pages/Home";
+import Leadership from "./Pages/Leadership";
+import Properties from "./Pages/Properties";
+import { useEffect, useState, Fragment } from "react";
 
 function App() {
+  //TODO: following code for passing active page to navbar, currently non-functional
+  // const [pageSelected, setPageSelected] = useState("");
+  // useEffect(() => {
+  //   console.log(
+  //     "🚀 ~ file: App.js ~ line 40 ~ useEffect ~ window.location.pathname.split('/')[1];",
+  //     window.location.pathname.split("/")[1]
+  //   );
+  //   const currentPage = window.location.pathname.split("/")[1];
+  //   setPageSelected(currentPage);
+  //   console.log("🚀 ~ file: App.js ~ line 38 ~ useEffect ~ currentPage", currentPage);
+  // }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <div className="content">
+        <Router>
+          <NavBar> </NavBar>
+
+          {/* A <Switch> looks through its children <Route>s and
+            renders the first one that matches the current URL. */}
+          <Switch>
+            <Route exact path="/About">
+              <About />
+            </Route>
+            <Route exact path="/Leadership">
+              <Leadership />
+            </Route>
+            <Route exact path="/Properties">
+              <Properties />
+            </Route>
+            <Route exact path="Contact">
+              <Contact />
+            </Route>
+            <Route exact path="/">
+              <Home />
+            </Route>
+          </Switch>
+        </Router>
+      </div>
+      <FooterBar></FooterBar>
+    </Fragment>
   );
 }
 
