@@ -56,7 +56,7 @@ function NavBar() {
                 </Link>
               </li>
               <li className="nav-item ">
-                <Link to="/Contact" className="nav-link">
+                <Link to="/ContactMe" className="nav-link">
                   CONTACT
                 </Link>
               </li>

@@ -1,10 +1,15 @@
+
+
+
 import Carousel from "react-bootstrap/Carousel";
 import Container from "react-bootstrap/Container";
 import { Row, Col, Image } from "react-bootstrap";
 
 import "./style.css";
 
-function About() {
+function ContactMe() {
+  <h1> hello</h1>;
+}
   return (
     <Container className="">
       <Row>
@@ -80,4 +85,4 @@ function About() {
   );
 }
 
-export default About;
+export default ContactMe;
