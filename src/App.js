@@ -4,7 +4,7 @@ import "./App.css";
 import FooterBar from "./Components/FooterBar";
 import NavBar from "./Components/NavBar";
 import About from "./Pages/About";
-import Contact from "./Pages/Contact";
+import ContactMe from "./Pages/ContactMe";
 import Home from "./Pages/Home";
 import Leadership from "./Pages/Leadership";
 import Properties from "./Pages/Properties";
@@ -41,8 +41,8 @@ function App() {
             <Route exact path="/Properties">
               <Properties />
             </Route>
-            <Route exact path="Contact">
-              <Contact />
+            <Route exact path="/ContactMe">
+              <ContactMe />
             </Route>
             <Route exact path="/">
               <Home />
