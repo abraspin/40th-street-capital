@@ -43,3 +43,10 @@ body {
   background-color: #EBDEC2;
   /* margin-bottom:5vh */
 }
+
+@media only screen and (max-width: 768px) {
+  .my-content{
+    margin-left: .5rem;
+    margin-right: .5rem;
+  }
+  }

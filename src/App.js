@@ -28,26 +28,27 @@ function App() {
       <div className="content">
         <Router>
           <NavBar> </NavBar>
-
-          {/* A <Switch> looks through its children <Route>s and
+          <div className="my-content">
+            {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
-          <Switch>
-            <Route exact path="/About">
-              <About />
-            </Route>
-            <Route exact path="/Leadership">
-              <Leadership />
-            </Route>
-            <Route exact path="/Properties">
-              <Properties />
-            </Route>
-            <Route exact path="/ContactMe">
-              <ContactMe />
-            </Route>
-            <Route exact path="/">
-              <Home />
-            </Route>
-          </Switch>
+            <Switch>
+              <Route exact path="/About">
+                <About />
+              </Route>
+              <Route exact path="/Leadership">
+                <Leadership />
+              </Route>
+              <Route exact path="/Properties">
+                <Properties />
+              </Route>
+              <Route exact path="/ContactMe">
+                <ContactMe />
+              </Route>
+              <Route exact path="/">
+                <Home />
+              </Route>
+            </Switch>
+          </div>
         </Router>
       </div>
       <FooterBar></FooterBar>

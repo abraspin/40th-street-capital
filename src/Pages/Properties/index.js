@@ -8,17 +8,19 @@ import "./style.css";
 function Properties() {
   return (
     <div>
-      <Row>
-        <Col xs={4} md={4} className="px-0 ">
-          <Image src="images/about-page/ryan-spencer-Um9AkOiIDcU-unsplash.jpg " fluid />
-        </Col>
-        <Col xs={4} md={4} className="px-0 ">
-          <Image src="images/about-page/lance-asper-pAWY7xrsLwc-unsplash.jpg" fluid />
-        </Col>
-        <Col xs={4} md={4} className="px-0 ">
-          <Image src="images/about-page/everaldo-coelho-2tigIl6Tt7E-unsplash.jpg" fluid />
-        </Col>
-      </Row>
+      <Container fluid>
+        <Row>
+          <Col xs={4} md={4} className="px-0 ">
+            <Image src="images/about-page/ryan-spencer-Um9AkOiIDcU-unsplash.jpg " fluid />
+          </Col>
+          <Col xs={4} md={4} className="px-0 ">
+            <Image src="images/about-page/lance-asper-pAWY7xrsLwc-unsplash.jpg" fluid />
+          </Col>
+          <Col xs={4} md={4} className="px-0 ">
+            <Image src="images/about-page/everaldo-coelho-2tigIl6Tt7E-unsplash.jpg" fluid />
+          </Col>
+        </Row>
+      </Container>
       <Container>
         <br></br>
         <Row className="py-2">
