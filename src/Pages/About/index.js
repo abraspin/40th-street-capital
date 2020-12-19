@@ -1,23 +1,14 @@
 import Carousel from "react-bootstrap/Carousel";
 import Container from "react-bootstrap/Container";
 import { Row, Col, Image } from "react-bootstrap";
+import TriPhotoHeader from "../../Components/TriPhotoHeader";
 
 import "./style.css";
 
 function About() {
   return (
     <Container className="">
-      <Row>
-        <Col xs={4} md={4} className="px-0 ">
-          <Image src="images/about-page/ryan-spencer-Um9AkOiIDcU-unsplash.jpg " fluid />
-        </Col>
-        <Col xs={4} md={4} className="px-0 ">
-          <Image src="images/about-page/lance-asper-pAWY7xrsLwc-unsplash.jpg" fluid />
-        </Col>
-        <Col xs={4} md={4} className="px-0 ">
-          <Image src="images/about-page/everaldo-coelho-2tigIl6Tt7E-unsplash.jpg" fluid />
-        </Col>
-      </Row>
+      <TriPhotoHeader></TriPhotoHeader>
       <br></br>
       <Row className="py-2">
         <h1 className="font-weight-bold">About 40th Street Capital</h1>
