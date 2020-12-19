@@ -1,4 +1,4 @@
-import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter, Switch, Route, Link, HashRouter } from "react-router-dom";
 import { LinkContainer } from "react-router-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useEffect, useState } from "react";
@@ -78,7 +78,7 @@ function NavBar() {
       <Row>
         <Navbar.Toggle aria-controls="basic-navbar-nav " />
         <Col>
-          <Navbar.Brand href="/Home">40th Street Capital</Navbar.Brand>
+          <Navbar.Brand href="/">40th Street Capital</Navbar.Brand>
         </Col>
         <Col>
           <Navbar.Collapse id="basic-navbar-nav">

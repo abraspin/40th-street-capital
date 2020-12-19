@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import FooterBar from "./Components/FooterBar";
@@ -26,7 +26,7 @@ function App() {
   return (
     <Fragment>
       <div className="content">
-        <Router>
+        <Router basename="/">
           <NavBar> </NavBar>
           <div className="my-content">
             {/* A <Switch> looks through its children <Route>s and
