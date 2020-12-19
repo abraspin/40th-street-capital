@@ -6,7 +6,7 @@ function MyFooter() {
       {/* <div className="row"> */}
 
       <div className="copyright-wrapper">
-        <a href={"/"}>
+        <a href="abraspin.github.io">
           <span className="footer-copyright text-center">Webmaster 2020 Abraham Spindel</span>
         </a>
       </div>

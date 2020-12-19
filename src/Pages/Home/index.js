@@ -1,15 +1,10 @@
 import "./style.css";
 import homeImage from "./homeImage.jpg";
+import Image from "react-bootstrap/Image";
+import Container from "react-bootstrap/Container";
 
 function Home() {
-  return (
-    // <div className="cover-container">
-    //   <img className="cover-image" src="/images/home-page/aurora-kreativ-UN4cs4zNCYo-unsplash.jpg"></img>;
-    // </div>
-
-    // <div style={{ backgroundImage: { homeImage } }} className="cover "></div>
-    <div className="cover "></div>
-  );
+  return <img className="home-image" src={homeImage} />;
 }
 
 export default Home;
