@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/40th-street-capital/static/css/main.6e034cb0.chunk.css",
-    "main.js": "/40th-street-capital/static/js/main.606e8dd6.chunk.js",
-    "main.js.map": "/40th-street-capital/static/js/main.606e8dd6.chunk.js.map",
+    "main.js": "/40th-street-capital/static/js/main.cb03b31b.chunk.js",
+    "main.js.map": "/40th-street-capital/static/js/main.cb03b31b.chunk.js.map",
     "runtime-main.js": "/40th-street-capital/static/js/runtime-main.19f0deca.js",
     "runtime-main.js.map": "/40th-street-capital/static/js/runtime-main.19f0deca.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/40th-street-capital/static/css/2.20aa2d7b.chunk.css",
@@ -15,13 +15,16 @@
     "static/css/main.6e034cb0.chunk.css.map": "/40th-street-capital/static/css/main.6e034cb0.chunk.css.map",
     "static/js/2.2df39526.chunk.js.LICENSE.txt": "/40th-street-capital/static/js/2.2df39526.chunk.js.LICENSE.txt",
     "static/media/style.css": "/40th-street-capital/static/media/aurora-kreativ-UN4cs4zNCYo-unsplash.ba7aba47.jpg",
-    "static/media/image1.f710df1d.jpg": "/40th-street-capital/static/media/image1.f710df1d.jpg"
+    "static/media/image1.f710df1d.jpg": "/40th-street-capital/static/media/image1.f710df1d.jpg",
+    "static/media/image2.aefc86dc.jpg": "/40th-street-capital/static/media/image2.aefc86dc.jpg",
+    "static/media/image3.d7a56e67.jpg": "/40th-street-capital/static/media/image3.d7a56e67.jpg",
+    "static/media/stockHeadShot.312681a6.jpg": "/40th-street-capital/static/media/stockHeadShot.312681a6.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.19f0deca.js",
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.2df39526.chunk.js",
     "static/css/main.6e034cb0.chunk.css",
-    "static/js/main.606e8dd6.chunk.js"
+    "static/js/main.cb03b31b.chunk.js"
   ]
 }
