@@ -1,6 +1,7 @@
 import Carousel from "react-bootstrap/Carousel";
 import Container from "react-bootstrap/Container";
 import { Row, Col, Image } from "react-bootstrap";
+import TriPhotoHeader from "../../Components/TriPhotoHeader";
 
 import PropertyCard from "../../Components/PropertyCard";
 import "./style.css";
@@ -8,19 +9,7 @@ import "./style.css";
 function Properties() {
   return (
     <div>
-      <Container fluid>
-        <Row>
-          <Col xs={4} md={4} className="px-0 ">
-            <Image src="images/about-page/ryan-spencer-Um9AkOiIDcU-unsplash.jpg " fluid />
-          </Col>
-          <Col xs={4} md={4} className="px-0 ">
-            <Image src="images/about-page/lance-asper-pAWY7xrsLwc-unsplash.jpg" fluid />
-          </Col>
-          <Col xs={4} md={4} className="px-0 ">
-            <Image src="images/about-page/everaldo-coelho-2tigIl6Tt7E-unsplash.jpg" fluid />
-          </Col>
-        </Row>
-      </Container>
+      <TriPhotoHeader></TriPhotoHeader>
       <Container>
         <br></br>
         <Row className="py-2">

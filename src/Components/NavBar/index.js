@@ -1,4 +1,5 @@
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
+import { LinkContainer } from "react-router-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useEffect, useState } from "react";
 import "./style.css";
@@ -82,10 +83,18 @@ function NavBar() {
         <Col>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav style={{ color: "wheat" }} className="mr-auto">
-              <Nav.Link href="/About">ABOUT</Nav.Link>
-              <Nav.Link href="/Leadership">LEADERSHIP</Nav.Link>
-              <Nav.Link href="/Properties">PROPERTIES</Nav.Link>
-              <Nav.Link href="/ContactMe">CONTACT</Nav.Link>
+              <LinkContainer to="/About">
+                <Nav.Link>ABOUT</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/Leadership">
+                <Nav.Link>LEADERSHIP</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/Properties">
+                <Nav.Link>PROPERTIES</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/ContactMe">
+                <Nav.Link>CONTACT</Nav.Link>
+              </LinkContainer>
             </Nav>
           </Navbar.Collapse>
         </Col>
