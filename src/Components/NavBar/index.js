@@ -78,23 +78,26 @@ function NavBar() {
       <Row>
         <Navbar.Toggle aria-controls="basic-navbar-nav " />
         <Col>
-          <Navbar.Brand href="/">40th Street Capital</Navbar.Brand>
+          <Link className="navbar-brand" href="/">
+            40th Street Capital
+          </Link>
+          {/* // <Navbar.Brand href="/">40th Street Capital</Navbar.Brand> */}
         </Col>
         <Col>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav style={{ color: "wheat" }} className="mr-auto">
-              <LinkContainer to="/About">
+              <Link to="/About">
                 <Nav.Link>ABOUT</Nav.Link>
-              </LinkContainer>
-              <LinkContainer to="/Leadership">
+              </Link>
+              <Link to="/Leadership">
                 <Nav.Link>LEADERSHIP</Nav.Link>
-              </LinkContainer>
-              <LinkContainer to="/Properties">
+              </Link>
+              <Link to="/Properties">
                 <Nav.Link>PROPERTIES</Nav.Link>
-              </LinkContainer>
-              <LinkContainer to="/ContactMe">
+              </Link>
+              <Link to="/ContactMe">
                 <Nav.Link>CONTACT</Nav.Link>
-              </LinkContainer>
+              </Link>
             </Nav>
           </Navbar.Collapse>
         </Col>
