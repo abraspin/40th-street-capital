@@ -78,7 +78,7 @@ function NavBar() {
       <Row>
         <Navbar.Toggle aria-controls="basic-navbar-nav " />
         <Col>
-          <Link className="navbar-brand" href="/">
+          <Link className="navbar-brand" href="/Home">
             40th Street Capital
           </Link>
           {/* // <Navbar.Brand href="/">40th Street Capital</Navbar.Brand> */}
