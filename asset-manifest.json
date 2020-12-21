@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/40th-street-capital/static/css/main.b8b38be2.chunk.css",
-    "main.js": "/40th-street-capital/static/js/main.38dd5867.chunk.js",
-    "main.js.map": "/40th-street-capital/static/js/main.38dd5867.chunk.js.map",
+    "main.js": "/40th-street-capital/static/js/main.a13bf094.chunk.js",
+    "main.js.map": "/40th-street-capital/static/js/main.a13bf094.chunk.js.map",
     "runtime-main.js": "/40th-street-capital/static/js/runtime-main.19f0deca.js",
     "runtime-main.js.map": "/40th-street-capital/static/js/runtime-main.19f0deca.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/40th-street-capital/static/css/2.20aa2d7b.chunk.css",
@@ -25,6 +25,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.f2c9e06b.chunk.js",
     "static/css/main.b8b38be2.chunk.css",
-    "static/js/main.38dd5867.chunk.js"
+    "static/js/main.a13bf094.chunk.js"
   ]
 }
