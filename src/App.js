@@ -26,7 +26,7 @@ function App() {
   return (
     <Fragment>
       <div className="content">
-        <Router basename="/abraspin.github.io/40th-Street-Capital/">
+        <Router basename="/40th-Street-Capital/">
           <NavBar> </NavBar>
           <div className="my-content">
             {/* A <Switch> looks through its children <Route>s and
@@ -44,7 +44,7 @@ function App() {
               <Route exact path={"/ContactMe"}>
                 <ContactMe />
               </Route>
-              <Route exact path={"/Home"}>
+              <Route exact path={"/"}>
                 <Home />
               </Route>
             </Switch>
