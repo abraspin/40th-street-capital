@@ -87,16 +87,20 @@ function NavBar() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav style={{ color: "wheat" }} className="mr-auto">
               <Link to="/About">
-                <Nav.Link>ABOUT</Nav.Link>
+                {/* <Nav.Link>ABOUT</Nav.Link> */}
+                ABOUT
               </Link>
               <Link to="/Leadership">
-                <Nav.Link>LEADERSHIP</Nav.Link>
+                {/* <Nav.Link>LEADERSHIP</Nav.Link> */}
+                LEADERSHIP
               </Link>
               <Link to="/Properties">
-                <Nav.Link>PROPERTIES</Nav.Link>
+                {/* <Nav.Link>PROPERTIES</Nav.Link> */}
+                PROPERTIES
               </Link>
               <Link to="/ContactMe">
-                <Nav.Link>CONTACT</Nav.Link>
+                {/* <Nav.Link>CONTACT</Nav.Link> */}
+                CONTACT
               </Link>
             </Nav>
           </Navbar.Collapse>
