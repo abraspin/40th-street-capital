@@ -1,4 +1,4 @@
-import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import FooterBar from "./Components/FooterBar";
@@ -32,19 +32,19 @@ function App() {
             {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
             <Switch>
-              <Route exact path="/About">
+              <Route exact path={"/About"}>
                 <About />
               </Route>
-              <Route exact path="/Leadership">
+              <Route exact path={"/Leadership"}>
                 <Leadership />
               </Route>
-              <Route exact path="/Properties">
+              <Route exact path={"/Properties"}>
                 <Properties />
               </Route>
-              <Route exact path="/ContactMe">
+              <Route exact path={"/ContactMe"}>
                 <ContactMe />
               </Route>
-              <Route exact path="/Home">
+              <Route exact path={"/Home"}>
                 <Home />
               </Route>
             </Switch>
