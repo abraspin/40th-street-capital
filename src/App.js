@@ -26,7 +26,7 @@ function App() {
   return (
     <Fragment>
       <div className="content">
-        <Router basename="/">
+        <Router basename="/abraspin.github.io/40th-Street-Capital/">
           <NavBar> </NavBar>
           <div className="my-content">
             {/* A <Switch> looks through its children <Route>s and
