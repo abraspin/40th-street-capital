@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import FooterBar from "./Components/FooterBar";
@@ -11,18 +11,6 @@ import Properties from "./Pages/Properties";
 import { useEffect, useState, Fragment } from "react";
 
 function App() {
-  //TODO: following code for passing active page to navbar, currently non-functional
-  // const [pageSelected, setPageSelected] = useState("");
-  // useEffect(() => {
-  //   console.log(
-  //     "🚀 ~ file: App.js ~ line 40 ~ useEffect ~ window.location.pathname.split('/')[1];",
-  //     window.location.pathname.split("/")[1]
-  //   );
-  //   const currentPage = window.location.pathname.split("/")[1];
-  //   setPageSelected(currentPage);
-  //   console.log("🚀 ~ file: App.js ~ line 38 ~ useEffect ~ currentPage", currentPage);
-  // }, []);
-
   return (
     <Fragment>
       <div className="content">
@@ -57,3 +45,15 @@ function App() {
 }
 
 export default App;
+
+//TODO: following code for passing active page to navbar, currently non-functional
+// const [pageSelected, setPageSelected] = useState("");
+// useEffect(() => {
+//   console.log(
+//     "🚀 ~ file: App.js ~ line 40 ~ useEffect ~ window.location.pathname.split('/')[1];",
+//     window.location.pathname.split("/")[1]
+//   );
+//   const currentPage = window.location.pathname.split("/")[1];
+//   setPageSelected(currentPage);
+//   console.log("🚀 ~ file: App.js ~ line 38 ~ useEffect ~ currentPage", currentPage);
+// }, []);
