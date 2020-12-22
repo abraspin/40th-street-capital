@@ -4,12 +4,14 @@
 
 .navbar{
     color:white;
-    height: 5vh;
+    min-height: 5vh;
 }
 
 @media only screen and (max-width: 768px) {
     .navbar {
+        min-height: 7vh;
         align-items: center;
+        
         flex-direction: column;
     }
 }
